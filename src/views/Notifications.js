@@ -17,7 +17,7 @@
 */
 import React from "react";
 // react plugin for creating notifications over the dashboard
-import NotificationAlert from "react-notification-alert";
+// import NotificationAlert from "react-notification-alert";
 
 // reactstrap components
 import {
@@ -77,7 +77,7 @@ function Notifications() {
     <>
       <div className="content">
         <div className="react-notification-alert-container">
-          <NotificationAlert ref={notificationAlertRef} />
+          {/* <NotificationAlert ref={notificationAlertRef} /> */}
         </div>
         <Row>
           <Col md="6">

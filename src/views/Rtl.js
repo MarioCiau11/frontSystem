@@ -19,7 +19,7 @@ import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // react plugin used to create charts
-import { Line, Bar } from "react-chartjs-2";
+// import { Line, Bar } from "react-chartjs-2";
 
 // reactstrap components
 import {
@@ -129,10 +129,10 @@ function Rtl() {
               </CardHeader>
               <CardBody>
                 <div className="chart-area">
-                  <Line
+                  {/* <Line
                     data={chartExample1[bigChartData]}
                     options={chartExample1.options}
-                  />
+                  /> */}
                 </div>
               </CardBody>
             </Card>
@@ -149,10 +149,10 @@ function Rtl() {
               </CardHeader>
               <CardBody>
                 <div className="chart-area">
-                  <Line
+                  {/* <Line
                     data={chartExample2.data}
                     options={chartExample2.options}
-                  />
+                  /> */}
                 </div>
               </CardBody>
             </Card>
@@ -168,10 +168,10 @@ function Rtl() {
               </CardHeader>
               <CardBody>
                 <div className="chart-area">
-                  <Bar
+                  {/* <Bar
                     data={chartExample3.data}
                     options={chartExample3.options}
-                  />
+                  /> */}
                 </div>
               </CardBody>
             </Card>
@@ -186,10 +186,10 @@ function Rtl() {
               </CardHeader>
               <CardBody>
                 <div className="chart-area">
-                  <Line
+                  {/* <Line
                     data={chartExample4.data}
                     options={chartExample4.options}
-                  />
+                  /> */}
                 </div>
               </CardBody>
             </Card>
