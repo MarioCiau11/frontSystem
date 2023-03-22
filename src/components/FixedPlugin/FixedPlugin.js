@@ -34,7 +34,7 @@ function FixedPlugin(props) {
           <i className="fa fa-cog fa-2x" />
         </DropdownToggle>
         <ul className="dropdown-menu show">
-          <li className="header-title">SIDEBAR BACKGROUND</li>
+          <li className="header-title">Color Tema</li>
           <li className="adjustments-line">
             <div className="badge-colors text-center">
               <Badge
@@ -84,7 +84,7 @@ function FixedPlugin(props) {
               )}
             </ThemeContext.Consumer>
           </li>
-          <li className="button-container">
+          {/* <li className="button-container">
             <Button
               href="https://www.creative-tim.com/product/black-dashboard-react"
               color="primary"
@@ -103,8 +103,8 @@ function FixedPlugin(props) {
               Documentation
             </Button>
           </li>
-          <li className="header-title">Want more components?</li>
-          <li className="button-container">
+          <li className="header-title">Want more components?</li> */}
+          {/* <li className="button-container">
             <Button
               href="https://www.creative-tim.com/product/black-dashboard-pro-react"
               className="btn-round"
@@ -114,7 +114,7 @@ function FixedPlugin(props) {
             >
               Get pro version
             </Button>
-          </li>
+          </li> */}
         </ul>
       </Dropdown>
     </div>

@@ -40,7 +40,7 @@ function UserProfile() {
           <Col md="8">
             <Card>
               <CardHeader>
-                <h5 className="title">Edit Profile</h5>
+                <h5 className="title">Editar Perfil</h5>
               </CardHeader>
               <CardBody>
                 <Form>
@@ -69,7 +69,7 @@ function UserProfile() {
                     <Col className="pl-md-1" md="4">
                       <FormGroup>
                         <label htmlFor="exampleInputEmail1">
-                          Email address
+                         Correo Electronico
                         </label>
                         <Input placeholder="mike@email.com" type="email" />
                       </FormGroup>
@@ -78,7 +78,7 @@ function UserProfile() {
                   <Row>
                     <Col className="pr-md-1" md="6">
                       <FormGroup>
-                        <label>First Name</label>
+                        <label>Nombre</label>
                         <Input
                           defaultValue="Mike"
                           placeholder="Company"
@@ -88,7 +88,7 @@ function UserProfile() {
                     </Col>
                     <Col className="pl-md-1" md="6">
                       <FormGroup>
-                        <label>Last Name</label>
+                        <label>Apellido</label>
                         <Input
                           defaultValue="Andrew"
                           placeholder="Last Name"
@@ -100,7 +100,7 @@ function UserProfile() {
                   <Row>
                     <Col md="12">
                       <FormGroup>
-                        <label>Address</label>
+                        <label>Dirección</label>
                         <Input
                           defaultValue="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
                           placeholder="Home Address"
@@ -112,7 +112,7 @@ function UserProfile() {
                   <Row>
                     <Col className="pr-md-1" md="4">
                       <FormGroup>
-                        <label>City</label>
+                        <label>Ciudad</label>
                         <Input
                           defaultValue="Mike"
                           placeholder="City"
@@ -122,7 +122,7 @@ function UserProfile() {
                     </Col>
                     <Col className="px-md-1" md="4">
                       <FormGroup>
-                        <label>Country</label>
+                        <label>Pais</label>
                         <Input
                           defaultValue="Andrew"
                           placeholder="Country"
@@ -132,23 +132,8 @@ function UserProfile() {
                     </Col>
                     <Col className="pl-md-1" md="4">
                       <FormGroup>
-                        <label>Postal Code</label>
+                        <label>Codigo Postal</label>
                         <Input placeholder="ZIP Code" type="number" />
-                      </FormGroup>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col md="8">
-                      <FormGroup>
-                        <label>About Me</label>
-                        <Input
-                          cols="80"
-                          defaultValue="Lamborghini Mercy, Your chick she so thirsty, I'm in
-                            that two seat Lambo."
-                          placeholder="Here can be your description"
-                          rows="4"
-                          type="textarea"
-                        />
                       </FormGroup>
                     </Col>
                   </Row>
@@ -156,7 +141,7 @@ function UserProfile() {
               </CardBody>
               <CardFooter>
                 <Button className="btn-fill" color="primary" type="submit">
-                  Save
+                  Guardar
                 </Button>
               </CardFooter>
             </Card>
